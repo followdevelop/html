@@ -1,0 +1,18 @@
+ul{
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+ul li+li {
+  display: non;
+}
+
+ul li:first-child{
+    margin: 0px;
+  }
